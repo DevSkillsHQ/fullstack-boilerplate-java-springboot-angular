@@ -12,15 +12,15 @@ A backbone for your coding challenge.
 
 ### Backend
 
-- Java 17
-- Spring Boot 2
-- SQLite 3
-- Gradle 8
+- Java
+- Spring Boot
+- SQLite
+- Gradle
   
 ### Frontend
 
-- Angular 18
-- Typescript 5
+- Angular
+- Typescript
 - 
 #### Additional libs
 
