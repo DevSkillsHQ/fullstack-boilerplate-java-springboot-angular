@@ -1,4 +1,4 @@
-# Fullstack Boilerplate
+# Fullstack Boilerplate (Angular/Java/Spring Boot)
 
 A backbone for your coding challenge.
 
@@ -6,22 +6,25 @@ A backbone for your coding challenge.
 
 - [Backend service](app-backend) - a Java/Spring Boot service with a `/ping` endpoint. Extend with your code.
 - [Frontend app](app-frontend) - an Angular app. Extend with your code.
-- [E2E test suites](cypress/integration) - a backend and a frontend Cypress test suites. Extend with your tests.
-- [Pipeline](.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
+- [E2E test suites](cypress/e2e) - a backend and a frontend Cypress test suites. Extend with your tests.
 
 ## Tech Stack
 
 ### Backend
 
-- Java 17
-- Spring Boot 2
-- SQLite 3
-- Gradle 8
+- Java
+- Spring Boot
+- SQLite
+- Gradle
   
 ### Frontend
 
-- Angular 15.0.4
-- Typescript 4.8.4
+- Angular
+- Typescript
+- 
+#### Additional libs
+
+- Karma/Jasmine (testing)
 
 ### Misc
 
@@ -55,11 +58,9 @@ npm run start:frontend # only Angular frontend
 5. Run the Cypress tests.
 
 ```bash
-npm run test # run project tests under `cypress/integration`
+npm run test # run project tests under `cypress/e2e`
 ```
 
 ---
 
-Made by [DevSkills](https://devskills.co).
-
-Did you find this repo useful? **Give us a shout on [Twitter](https://twitter.com/DevSkillsHQ) / [LinkedIn](https://www.linkedin.com/company/devskills)**.
+Authored by [Alva Labs](https://www.alvalabs.io/).
